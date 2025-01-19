@@ -34,6 +34,7 @@ img{
 
  #header-section{
     margin:0 160px;
+    padding-bottom: 40px;
 
 } 
 
@@ -92,63 +93,104 @@ margin-bottom:15px 0  40px 0;
     height: 329px;
 }
 
+/* main section code start here */
 
 
+#vision-section{
+    margin: 0 160px;
 
 
+}
+#vision-section h2{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
 
+}
+#vision-section p{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
 
-
-
-
-
-
- /* nav{
+}
+.vision-container{
+    margin-top: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-} */
-
-
-/* .header-logo{
-color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align:left;
-
-}  */
-
-
-
-/* main section code start */
-/* #hero{
+    gap: 25px;
 }
 
-.hero-child{
-    display: flex;
 
-    justify-content: space-between;
-    align-items: center;
 
-} */
+.vision-container-child{
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+width: 410px;
+padding:32px 32px;
+}
 
-/* .hero-child-idea h1{
-color: rgb(14, 14, 14);
+
+
+
+.vision-container-child .vision-img{
+    width: 49px;
+    height: 53px;
+}
+
+.vision-container-child h4{
+color: rgba(14, 14, 14, 0.8);
 font-family: Fira Sans;
-font-size: 56px;
+font-size: 20px;
 font-weight: 700;
-line-height: 67px;
+line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 
 }
 
-.img-div{
-    max-width: 474px;
-} */
+.vision-container-child p{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 35px;
+    
+}
+
+.vision-container-child .vision-btn{
+    background: rgb(9, 161, 92);
+    color: white;
+
+}
+
+.vision-container-child .vision-btn1{
+    background: rgb(255, 194, 57);
+    color: white;
+
+}
+
+.vision-container-child2{
+    background: rgb(198, 228, 214);
+
+}
+.vision-container-child3{
+    background: rgb(247, 235, 207);
+
+}
+
+ 
+
 
 
