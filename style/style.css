@@ -19,11 +19,19 @@ body{
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     padding: 15px 30px;
+    transition: 0.7s;
+
 }
+
+
 
 .btn.explore-btn{
     color: white;
    background-color:rgb(0, 106, 80);
+}
+
+.btn.explore-btn.subscribe{
+    padding: 10px 26px;
 }
 
 img{
@@ -355,6 +363,63 @@ padding: 32px 45px;
     display: block;
     margin: 0 auto;
 }
+
+/* newsletter code start here */
+
+#newsletter-section{
+    margin:50px 160px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.newsletter-section-container{
+    padding: 80px 100px;
+    position:relative;
+}
+
+.newsletter-section-container h3{
+text-align: center;
+color: rgb(14, 14, 14);
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+}
+
+.newsletter-section-container p{
+color: rgba(14, 14, 14, 0.7);
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.newsletter-inpute{
+    display: block;
+    margin: 20px auto;
+    padding: 13px 150px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px 0 0 10px;
+
+    
+
+}
+
+.newsletter-section-container .subscribe{
+    display: inline-block;
+    position:absolute;
+    top: 255px;
+    right: 233px;
+    border-radius:0 13px 13px 0;
+}
+
+.btn:hover{
+    background-color: aqua;
+}
+
+
 
 
 
