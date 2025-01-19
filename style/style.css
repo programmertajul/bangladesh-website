@@ -29,6 +29,7 @@ body{
 img{
     width:100%;
     height:100%;
+    
 }
 
 
@@ -192,5 +193,106 @@ margin-bottom: 35px;
 
  
 
+#vision-section .para-container{
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin-top: 32px;
+padding: 48px 22px;
+background-image: url(../assets/quote-bg.png);
+background-repeat: no-repeat;
+background-position: 22px 42px;
+}
+
+.para-container p{
+ color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.para-container p small{
+color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
 
 
+/* recent news section code start here */
+
+
+#recent-news-section{
+    margin: 0 160px;
+}
+
+#recent-news-section h3{
+ color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 37px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+#recent-news-section p{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.recent-news-container{
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 48px;
+    margin-bottom: 30px;
+}
+
+
+
+.satelite-img-div{
+   width: 400px;
+   height:300px;
+   
+}
+
+.satelite-img-div img{
+    border-radius: 24px;
+}
+
+.jazeera-img-parent{
+    width: 740px;
+    height: 310px;
+}
+
+.jazeera-img-div{
+    width: 140px;
+    height: 40px;
+}
+
+.jazeera-img-parent p{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 27px;
+}
